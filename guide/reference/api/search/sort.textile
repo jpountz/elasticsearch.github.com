@@ -97,7 +97,7 @@ p. Since version @0.90.1@ nested sorting is also support when sorting by scripts
 
 h1. Missing Values
 
-p. Numeric fields support specific handling for missing fields in a doc. The @missing@ value can be @_last@, @_first@, or a custom value (that will be used for missing docs as the sort value). For example:
+p. A specific handling can be configured for missing fields in a doc. The @missing@ value can be @_last@, @_first@, or a custom value (that will be used for missing docs as the sort value). For example:
 
 <pre class="prettyprint lang-js">
 {
